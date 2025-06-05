@@ -51,6 +51,8 @@ blockquote {
     color:#1F2937;
     font-style: italic;
     font-weight: lighter;
+    padding: 0 96px;
+    margin: 0;
 }
 
 header,
@@ -66,8 +68,6 @@ footer {
     color:#F9FAf8;
 }
 
-/* END - BASE */
-
 /* Header Styles */
 
 .header-container {
@@ -80,8 +80,6 @@ footer {
     font-weight: 900;
     margin-right: auto;
 }
-
-/* END - Header Styles */
 
 /* Hero Section Styles */
 
@@ -108,8 +106,6 @@ footer {
     width: 100%;
     height: auto;
 }
-
-/* END - Hero Section Styles */
 
 /* Info Section Styles */
 
@@ -139,4 +135,25 @@ footer {
     height: auto;
 }
 
-/* END - Info Section Styles */
+/* Quote Section Styles */
+
+.quote-section {
+    background-color:#E5E7EB;
+    color:#1F2937;
+}
+
+.quote-container {
+    max-width: 960px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 800;
+    margin: 8px 0;
+    padding: 0 100px
+}
+
+/* CTA Section Styles */
+
